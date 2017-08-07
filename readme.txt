@@ -1,4 +1,4 @@
-﻿Ứng dụng đọc tin tức theo RSS 
+﻿Read news through RSS
 
 RSS Sheep
 
