@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:minHeight="100dp">
+
+    <ImageView
+        android:id="@+id/postThumb"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/rss_sheep"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/postTitleLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:text="This is a good Post, I hope it will have 2 lines. Please give me 2 lines"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/postContentLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:text="This is a good Post, I hope it will have 2 lines. Please give me 2 lines"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/postDateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="April 12, 2013"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

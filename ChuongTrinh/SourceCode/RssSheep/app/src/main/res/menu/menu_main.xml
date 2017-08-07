@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_change_view"
+        android:title="@string/action_change_view"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+        <group
+            android:id="@+id/groupChangeView"
+            android:orderInCategory="100"
+            app:showAsAction="always">
+            <item
+                android:id="@+id/action_simple_list"
+                android:icon="@drawable/ic_action_simple_list"
+                android:orderInCategory="101"
+                android:title="@string/action_simple_list"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_listview"
+                android:icon="@drawable/ic_action_listview"
+                android:orderInCategory="102"
+                android:title="@string/action_listview"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_cardview"
+                android:icon="@drawable/ic_action_cardview"
+                android:orderInCategory="103"
+                android:title="@string/action_cardview"
+                app:showAsAction="always" />
+        </group>
+
+    </item>
+
+    <item android:id="@+id/action_delete_website"
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/delete"
+        android:orderInCategory="104"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_bookmark"
+        android:icon="@drawable/star_bookmark"
+        android:orderInCategory="105"
+        android:title="@string/bookmark"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_switch_themes"
+        android:title="@string/action_switch_theme"
+        android:orderInCategory="106"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="107"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="108"
+        android:icon="@drawable/ic_action_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_webpage_directly"
+        android:title="@string/open_web_page_directly"
+        android:orderInCategory="109"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item
+        android:orderInCategory="110"
+        android:id="@+id/randomPost"
+        android:title="@string/random_post"
+        app:showAsAction="never"/>
+
+</menu>

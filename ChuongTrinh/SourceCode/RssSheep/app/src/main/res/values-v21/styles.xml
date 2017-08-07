@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyMaterialThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowBackground">@android:color/black</item>-->
+        <!--<item name="android:colorBackground">#000000</item>-->
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">@color/colorBlack</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+</resources>

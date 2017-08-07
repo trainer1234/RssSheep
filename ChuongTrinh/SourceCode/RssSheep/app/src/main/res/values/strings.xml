@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Rss Sheep</string>
+
+    <string name="day">Ngày</string>
+    <string name="night">Đêm</string>
+    <string name="theme">Theme</string>
+    <string name="gui_settings">Giao diện</string>
+    <string name="browsing">Duyệt web</string>
+    <string name="title">Tựa đề</string>
+    <string name="listview">Danh sách</string>
+    <string name="cardview">Thẻ card</string>
+    <string name="change_view_summary">Đổi cách xem danh sách web</string>
+    <string name="theme_labels_summary">Đổi giao diện ngày/đêm</string>
+
+    <string name="favourite">Yêu thích</string>
+    <string name="remove">Xóa</string>
+    <string name="delete_site">Xóa trang web</string>
+    <string name="web_naming">Đặt tên trang web</string>
+    <string name="web_group_naming">Đặt tên cho nhóm trang web</string>
+    <string name="input_url">Nhập địa chỉ trang cần thêm</string>
+    <string name="processing">Đang xử lý...</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="open_web_page_directly">Mở trực tiếp bằng trình duyệt</string>
+    <string name="add_content">Thêm nguồn trang RSS</string>
+    <string name="rss_source">Nguồn trang RSS</string>
+    <string name="rss_source_input">Nhập địa chỉ trang RSS bạn muốn thêm</string>
+
+    <string name="action_about">Về ứng dụng</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_simple_list">Xem theo tựa đề</string>
+    <string name="action_listview">Xem theo danh sách</string>
+    <string name="action_cardview">Xem theo danh sách thẻ card</string>
+    <string name="action_switch_theme">Đổi giao diện</string>
+    <string name="action_change_view">Đổi cách xem</string>
+    <string name="random_post">Đọc ngẫu nhiên một bài viết</string>
+    <string name="delete">Xóa trang RSS</string>
+    <string name="bookmark">Đánh dấu</string>
+    <string name="add_favourite_post">Thêm bài viết yêu thích</string>
+    <string name="remove_favourite_post">Xóa bài viết yêu thích</string>
+    <string name="add_success">Thêm thành công</string>
+    <string name="add_fail">Thêm thất bại</string>
+    <string name="delete_success">Xóa thành công</string>
+
+    <string name="author">
+        Tác giả:\n\n
+        Kha Giai Minh\n
+        Phạm Duy Linh\n
+    </string>
+
+    <string name="nav_item_tuoitre">Tuổi trẻ</string>
+    <string name="nav_item_home">Trang chủ</string>
+    <string name="nav_item_world">Thế giới</string>
+    <string name="nav_item_economy">Kinh tế</string>
+    <string name="nav_item_education">Giáo dục</string>
+    <string name="nav_item_culture_entertainment">Văn hóa - Giải trí</string>
+    <string name="nav_item_tech">Nhịp sống số</string>
+    <string name="nav_item_travel">Du lịch</string>
+    <string name="nav_item_politic_society">Chính trị - Xã hội</string>
+    <string name="nav_item_law">Pháp luật</string>
+    <string name="nav_item_healthy_life">Sống khỏe</string>
+    <string name="nav_item_sport">Thể thao</string>
+    <string name="nav_item_nhip_song_tre">Nhịp sống trẻ</string>
+    <string name="nav_item_readers">Bạn đọc</string>
+    <string name="nav_item_news">Thời sự</string>
+    <string name="nav_item_business">Kinh doanh</string>
+    <string name="nav_item_startup">Startup</string>
+    <string name="nav_item_entertainment">Giải trí</string>
+    <string name="nav_item_health">Sức khỏe</string>
+    <string name="nav_item_family">Gia đình</string>
+    <string name="nav_item_science">Khoa học</string>
+    <string name="nav_item_digitizing">Số hóa</string>
+    <string name="nav_item_vehicle">Xe</string>
+    <string name="nav_item_community">Cộng đồng</string>
+    <string name="nav_item_talk">Tâm sự</string>
+    <string name="nav_item_smile">Cười</string>
+
+    <string name="nav_item_vnexpress">VNEXPRESS</string>
+
+    <string-array name="theme_labels">
+        <item name="0">@string/day</item>
+        <item name="1">@string/night</item>
+    </string-array>
+
+    <string-array name="theme_labels_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+
+    <string-array name="view_labels">
+        <item name="1">@string/title</item>
+        <item name="2">@string/listview</item>
+        <item name="3">@string/cardview</item>
+    </string-array>
+
+    <string-array name="view_labels_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <array name="nav_drawer_labels">
+        <item>@array/tuoi_tre_labels</item>
+        <item>@array/vnexpress_labels</item>
+    </array>
+    <!-- navigation drawer item labels  -->
+    <string-array name="tuoi_tre_labels">
+        <item>@string/nav_item_tuoitre</item>
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_world</item>
+        <item>@string/nav_item_economy</item>
+        <item>@string/nav_item_education</item>
+        <item>@string/nav_item_culture_entertainment</item>
+        <item>@string/nav_item_tech</item>
+        <item>@string/nav_item_travel</item>
+        <item>@string/nav_item_politic_society</item>
+        <item>@string/nav_item_law</item>
+        <item>@string/nav_item_healthy_life</item>
+        <item>@string/nav_item_sport</item>
+        <item>@string/nav_item_nhip_song_tre</item>
+        <item>@string/nav_item_readers</item>
+
+    </string-array>
+
+    <string-array name="vnexpress_labels">
+        <item>@string/nav_item_vnexpress</item>
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_news</item>
+        <item>@string/nav_item_world</item>
+        <item>@string/nav_item_business</item>
+        <item>@string/nav_item_startup</item>
+        <item>@string/nav_item_entertainment</item>
+        <item>@string/nav_item_sport</item>
+        <item>@string/nav_item_law</item>
+        <item>@string/nav_item_education</item>
+        <item>@string/nav_item_health</item>
+        <item>@string/nav_item_family</item>
+        <item>@string/nav_item_travel</item>
+        <item>@string/nav_item_science</item>
+        <item>@string/nav_item_digitizing</item>
+        <item>@string/nav_item_vehicle</item>
+        <item>@string/nav_item_community</item>
+        <item>@string/nav_item_talk</item>
+        <item>@string/nav_item_smile</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

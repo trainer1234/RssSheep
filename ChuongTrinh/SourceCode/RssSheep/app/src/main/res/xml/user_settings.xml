@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/browsing">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefOpenDirectly"
+            android:title="@string/open_web_page_directly"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/gui_settings">
+
+        <ListPreference android:key="prefTheme"
+            android:title="@string/action_switch_theme"
+            android:summary="@string/theme_labels_summary"
+            android:entries="@array/theme_labels"
+            android:entryValues="@array/theme_labels_values"/>
+
+        <ListPreference android:key="prefView"
+            android:title="@string/action_change_view"
+            android:summary="@string/change_view_summary"
+            android:entries="@array/view_labels"
+            android:entryValues="@array/view_labels_values" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
